@@ -2853,6 +2853,15 @@
     "kolibri": {
         "name": "Kolibri",
         "rx_dual": {
+            "94B": {
+                "product_name": "L900-94",
+                "lua_name": "94RX-915",
+                "layout_file": "LR1121_DBR4.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_RX"
+            },
             "93B": {
                 "product_name": "L900-93",
                 "lua_name": "93RX-915",
