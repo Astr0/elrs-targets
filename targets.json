@@ -2930,6 +2930,15 @@
     "kolibri": {
         "name": "Kolibri",
         "rx_dual": {
+            "94B": {
+                "product_name": "L900-94",
+                "lua_name": "94RX-915",
+                "layout_file": "LR1121_DBR4.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_RX"
+            },
             "93B": {
                 "product_name": "L900-93",
                 "lua_name": "93RX-915",
@@ -2947,6 +2956,31 @@
                 "min_version": "3.4.0",
                 "platform": "esp8285",
                 "firmware": "Unified_ESP8285_LR1121_RX"
+            }
+        }
+    },
+    "cortex": {
+        "name": "Cortex",
+        "tx_dual": {
+            "tx580": {
+                "product_name": "TX 580",
+                "lua_name": "TX580",
+                "layout_file": "Cortex TX580.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_TX"
+            }
+        },
+        "rx_dual": {
+            "rx580": {
+                "product_name": "RX 580",
+                "lua_name": "RX580",
+                "layout_file": "Cortex RX580.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_RX"
             }
         }
     }
