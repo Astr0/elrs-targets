@@ -2983,5 +2983,20 @@
                 "firmware": "Unified_ESP32_LR1121_RX"
             }
         }
+    },
+    "edifier": {
+        "name": "Edifier",
+        "tx_900": {
+            "micro400": {
+                "product_name": "Edifier TX400",
+                "lua_name": "Edfr TX400",
+                "layout_file": "Edifier TX400.json",
+                "features": ["fan"],
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_900_TX"
+            }
+        }
     }
 }
