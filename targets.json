@@ -3009,5 +3009,19 @@
                 "firmware": "Unified_ESP32_900_TX"
             }
         }
+    },
+    "chdb": {
+        "name": "ChDB",
+        "rx_900": {
+            "mk3": {
+                "product_name": "ChDB RX Mk3",
+                "lua_name": "ChDB RX Mk3",
+                "layout_file":  "ChDB RX Mk3.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.4.0",
+                "platform": "esp8285",
+                "firmware": "Unified_ESP8285_900_RX"   
+            }
+        }
     }
 }
