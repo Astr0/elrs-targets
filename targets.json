@@ -2941,27 +2941,27 @@
     "kolibri": {
         "name": "Kolibri",
         "rx_dual": {
-            "94B": {
-                "product_name": "L900-94",
-                "lua_name": "94RX-915",
+            "dbr4": {
+                "product_name": "L900-DBR4",
+                "lua_name": "L900-DBR4",
                 "layout_file": "LR1121_DBR4.json",
                 "upload_methods": ["uart", "wifi", "betaflight"],
                 "min_version": "3.4.0",
                 "platform": "esp32",
                 "firmware": "Unified_ESP32_LR1121_RX"
             },
-            "93B": {
-                "product_name": "L900-93",
-                "lua_name": "93RX-915",
+            "dbr3": {
+                "product_name": "L900-DBR3",
+                "lua_name": "L900-DBR3",
                 "layout_file": "LR1121_DBR3.json",
                 "upload_methods": ["uart", "wifi", "betaflight"],
                 "min_version": "3.4.0",
                 "platform": "esp8285",
                 "firmware": "Unified_ESP8285_LR1121_RX"
             },
-            "91B": {
-                "product_name": "L900-91",
-                "lua_name": "91RX-915",
+            "dbr1": {
+                "product_name": "L900-DBR1",
+                "lua_name": "L900-DBR1",
                 "layout_file": "LR1121_DBR1.json",
                 "upload_methods": ["uart", "wifi", "betaflight"],
                 "min_version": "3.4.0",
@@ -3021,6 +3021,20 @@
                 "min_version": "3.4.0",
                 "platform": "esp8285",
                 "firmware": "Unified_ESP8285_900_RX"   
+            }
+        }
+    },
+    "coalas": {
+        "name": "coalas",
+        "tx_900": {
+            "tx45": {
+                "product_name": "coalas::45TX",
+                "lua_name": "coalas::45TX",
+                "layout_file":  "Coalas 45TX.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_900_TX"
             }
         }
     },
