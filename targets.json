@@ -3038,6 +3038,20 @@
             }
         }
     },
+    "belinrc": {
+        "name": "BelinRC",
+        "tx_900": {
+            "tx433": {
+                "product_name": "BelinRC TX433",
+                "lua_name": "BelinT433",
+                "layout_file":  "BelinRC TX433.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_900_TX"
+            }
+        }
+    },
     "noname": {
         "name": "Noname",
         "rx_900": {
