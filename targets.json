@@ -3126,8 +3126,8 @@
                 "layout_file": "ChDB TX500.json",
                 "upload_methods": ["uart", "wifi"],
                 "min_version": "3.4.0",
-                "platform": "esp32",
-                "firmware": "Unified_ESP32_900_TX"
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_900_TX"
             }
         }
     },
