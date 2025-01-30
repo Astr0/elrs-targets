@@ -127,6 +127,32 @@
                 "firmware": "Unified_ESP32C3_2400_RX"
             }
         },
+        "tx_dual": {
+            "nano": {
+                "product_name": "BAYCKRC 900/2400 Dual Band 1W Nano TX",
+                "lua_name": "B 9002G4 Nano TX",
+                "layout_file": "BAYCKRC Dual Band.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.5.2",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_TX"
+            },
+            "nano_gemini": {
+                "product_name": "BAYCKRC 900/2400 Dual Band 1W Nano Gemini TX",
+                "lua_name": "B 9002G4 NanoGTX",
+                "layout_file": "BAYCKRC Dual Band.json",
+                "overlay": {
+                    "radio_busy_2": 39,
+                    "radio_dio1_2": 34,
+                    "radio_nss_2": 15,
+                    "radio_rst_2": 21
+                },
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_TX"
+            }
+        },
         "rx_dual": {
             "dual": {
                 "product_name": "BAYCKRC 900/2400 Dual Band Gemini RX",
@@ -1571,6 +1597,24 @@
             }
         }
     },
+    "hdzero": {
+        "name": "HDZero",
+        "rx_2400": {
+            "halo": {
+                "product_name": "HDZero Halo FC 2.4GHz Gemini RX",
+                "lua_name": "HDZero Halo FC",
+                "layout_file": "Generic C3 2400 True Diversity.json",
+                "overlay": {
+                    "led_rgb": -1,
+                    "led": 19
+                },
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.5.0",
+                "platform": "esp32-c3",
+                "firmware": "Unified_ESP32C3_2400_RX"
+            }
+        }
+    },
     "helloradio": {
         "name": "HelloRadio",
         "tx_2400": {
@@ -1887,6 +1931,20 @@
                 "firmware": "Unified_ESP32_2400_TX",
                 "prior_target_name": "Jumper_AION_2400_T-Pro_TX"
             },
+            "t-pros": {
+                "product_name": "Jumper AION T-ProS 2.4GHz TX",
+                "lua_name": "AION T-ProS TX",
+                "layout_file": "Jumper T-20 2400.json",
+                "overlay": {
+                    "use_backpack": true,
+                    "misc_fan_en": 33
+                },
+                "upload_methods": ["uart", "wifi", "etx"],
+                "min_version": "3.3.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_2400_TX",
+                "prior_target_name": "Jumper_AION_2400_T-Pro_TX"
+            },
             "t-15": {
                 "product_name": "Jumper AION T-15 2.4GHz TX",
                 "lua_name": "T-15 2G4 TX",
@@ -1992,6 +2050,24 @@
             "t-20-v2": {
                 "product_name": "Jumper AION T-20 900M V2 TX",
                 "lua_name": "T-20 900 V2 TX",
+                "layout_file": "Jumper T-20 900 V2.json",
+                "upload_methods": ["uart", "wifi", "etx"],
+                "min_version": "3.3.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_900_TX"
+            },
+            "t-15": {
+                "product_name": "Jumper AION T-15 900M TX",
+                "lua_name": "T-15 900 TX",
+                "layout_file": "Jumper T-20 900 V2.json",
+                "upload_methods": ["uart", "wifi", "etx"],
+                "min_version": "3.3.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_900_TX"
+            },
+            "t-pros": {
+                "product_name": "Jumper T-ProS 900M TX",
+                "lua_name": "T-ProS 900 TX",
                 "layout_file": "Jumper T-20 900 V2.json",
                 "upload_methods": ["uart", "wifi", "etx"],
                 "min_version": "3.3.0",
@@ -2684,6 +2760,15 @@
                 "min_version": "3.4.0",
                 "platform": "esp32",
                 "firmware": "Unified_ESP32_LR1121_TX"
+            },
+            "gx12": {
+                "product_name": "RadioMaster GX12 2.4/900 TX",
+                "lua_name": "RM GX12 X-Band",
+                "layout_file": "Radiomaster GX12.json",
+                "upload_methods": ["etx", "wifi"],
+                "min_version": "3.5.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_TX"
             }
         },
         "rx_dual": {
@@ -2726,6 +2811,17 @@
                 "min_version": "3.3.0",
                 "platform": "esp32",
                 "firmware": "Unified_ESP32_2400_RX"
+            }
+        },
+        "rx_900": {
+            "dual": {
+                "product_name": "SEQURE 900MHz Dual RX",
+                "lua_name": "SEQURE 900 TDRX",
+                "layout_file": "Generic 900 True Diversity.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.3.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_900_RX"
             }
         }
     },
