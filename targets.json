@@ -3022,6 +3022,17 @@
                 "platform": "esp8285",
                 "firmware": "Unified_ESP8285_900_RX"   
             }
+        },
+        "tx_900": {
+            "tx500": {
+                "product_name": "ChDB TX500",
+                "lua_name": "ChDB TX500",
+                "layout_file": "ChDB TX500.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_900_TX"
+            }
         }
     },
     "coalas": {
