@@ -14,7 +14,6 @@
     "power_control": 0,
     "power_values": [120,124,127],
     "led": 2,
-    "led_red_invert": true,
-    "button": 16
+    "led_red_invert": true
 }
 
