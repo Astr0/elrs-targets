@@ -1720,6 +1720,21 @@
                 "platform": "esp32",
                 "firmware": "Unified_ESP32_2400_RX"
             }
+        },
+        "rx_dual": {
+            "geprc": {
+                "product_name": "HGLRC 900/2400 Gemini Xrossband RX",
+                "lua_name": "HGLRC GemX RX",
+                "layout_file": "Generic LR1121 True Diversity.json",
+                "overlay": {
+                    "radio_rfsw_ctrl": [15, 0, 8, 4, 4, 14, 0, 13],
+                    "power_values_dual": [-12,-9,-6,0]
+                },
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.5.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_RX"
+            }
         }
     },
     "iflight": {
