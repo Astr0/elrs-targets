@@ -790,6 +790,18 @@
     },
     "foxeer": {
         "name": "Foxeer",
+        "tx_900": {
+            "tx900": {
+                "product_name": "Foxeer 900MHz TX",
+                "lua_name": "Foxeer 900TX",
+                "layout_file": "Foxeer 900 TX.json",
+                "features": ["fan"],
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.0.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_900_TX"
+            }
+        },
         "rx_2400": {
             "pa-rgb": {
                 "product_name": "Foxeer 2.4Ghz RX",
