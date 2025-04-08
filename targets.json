@@ -3212,6 +3212,20 @@
                 "platform": "esp8285",
                 "firmware": "Unified_ESP8285_900_RX"   
             }
+        }        
+    },
+    "rarog": {
+        "name": "Rarog",
+        "tx_dual": {
+            "subghz_2w": {
+                "product_name": "SubGHz TX 2W",
+                "lua_name": "SubGHz2W",
+                "layout_file": "SubGHz TX 2W.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_TX"
+            }
         }
     }
 }
