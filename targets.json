@@ -3585,16 +3585,29 @@
         }
     },
     "coalas": {
-        "name": "coalas",
+        "name": "coalas::systems",
         "tx_900": {
-            "tx45": {
-                "product_name": "coalas::45TX",
-                "lua_name": "coalas::45TX",
-                "layout_file":  "Coalas 45TX.json",
-                "upload_methods": ["uart", "wifi", "betaflight"],
-                "min_version": "3.4.0",
+            "45tx_nmn": {
+                "product_name": "COALAS 45TX NMN",
+                "lua_name": "coalas::45TX.NMN",
+                "layout_file": "COALAS 45TX NMN.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.0.0",
                 "platform": "esp32",
-                "firmware": "Unified_ESP32_900_TX"
+                "firmware": "Unified_ESP32_433_COALAS_TX",
+                "prior_target_name": "COALAS_45TX_NMN"
+            }
+        },
+        "rx_900": {
+            "45rx": {
+                "product_name": "COALAS 45RX",
+                "lua_name": "coalas::45RX",
+                "layout_file": "COALAS 45RX.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.0.0",
+                "platform": "esp8285",
+                "firmware": "Unified_ESP8285_COALAS45_RX",
+                "prior_target_name": "COALAS_45RX"
             }
         }
     },
