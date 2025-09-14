@@ -3594,7 +3594,7 @@
                 "upload_methods": ["uart", "wifi"],
                 "min_version": "3.0.0",
                 "platform": "esp32",
-                "firmware": "Unified_ESP32_433_COALAS_TX",
+                "firmware": "Unified_ESP32_900_TX",
                 "prior_target_name": "COALAS_45TX_NMN"
             }
         },
@@ -3606,7 +3606,7 @@
                 "upload_methods": ["uart", "wifi", "betaflight"],
                 "min_version": "3.0.0",
                 "platform": "esp8285",
-                "firmware": "Unified_ESP8285_COALAS45_RX",
+                "firmware": "Unified_ESP8285_900_RX",
                 "prior_target_name": "COALAS_45RX"
             }
         }
