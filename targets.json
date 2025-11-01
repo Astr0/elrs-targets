@@ -3707,6 +3707,17 @@
                 "platform": "esp32-c3",
                 "firmware": "Unified_ESP32C3_LR1121_RX"
             }
+        },
+        "tx_dual": {
+            "hardveil2w": {
+                "product_name": "MaxLink Hard Veil TX 2W",
+                "lua_name": "MLNK HV 2W TX",
+                "layout_file": "Hard Veil LR1121 2W.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.5.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_TX"
+            }
         }
     }
 }
