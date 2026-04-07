@@ -3384,6 +3384,20 @@
             }
         }
     },
+    "tbs": {
+        "name": "TBS",
+        "rx_dual": {
+            "yb_diversity": {
+                "product_name": "TBS YB-Diversity RX",
+                "lua_name": "TBS YB-Div",
+                "layout_file": "TBS YB-Diversity RX.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.5.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_LR1121_RX"
+            }
+        }
+    },
     "tunerc": {
         "name": "TuneRC",
         "rx_2400": {
