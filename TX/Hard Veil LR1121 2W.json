@@ -1,4 +1,5 @@
 {
+  "power_lna_gain": 0,
   "serial_rx": 13,
   "serial_tx": 13,
   "radio_busy": 38,

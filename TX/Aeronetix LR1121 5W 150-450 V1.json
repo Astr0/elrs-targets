@@ -1,4 +1,5 @@
 {
+    "power_lna_gain": 0,
     "serial_rx": 2,
     "serial_tx": 2,
 
