@@ -9,7 +9,6 @@
     "radio_rst": 2,
     "radio_sck": 14,
     "radio_dcdc": true,
-    "radio_rfo_lp": true,
     "ant_ctrl": 9,
     "power_min": 0,
     "power_high": 5,

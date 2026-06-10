@@ -57,6 +57,11 @@ hardware_fields = {
     "power_values": FieldType.ARRAY,
     "power_values2": FieldType.ARRAY,
     "power_values_dual": FieldType.ARRAY,
+    # SokilRC fork fields: frequency-dependent power correction (see firmware hardware.cpp)
+    "apply_power_correction": FieldType.BOOL,
+    "apply_power_correction_dual": FieldType.BOOL,
+    "freq_power_table": FieldType.ARRAY,
+    "freq_power_table_dual": FieldType.ARRAY,
     "joystick": FieldType.ADC,
     "joystick_values": FieldType.ARRAY,
     "five_way1": FieldType.INPUT,
@@ -242,12 +247,14 @@ def validate(target, layout, device):
 
 def validate_grouping(target, layout, field, firmware):
     had_error = validate_field_grouping(target, layout, field, 'all')
-    if '_2400_' in firmware:
+    # LR1121 must be checked before band markers: fork firmware names like
+    # Unified_ESP8285_LR1121_900_RX contain both, and the radio is LR1121
+    if '_LR1121_' in firmware:
+        had_error |= validate_field_grouping(target, layout, field, 'dual')
+    elif '_2400_' in firmware:
         had_error |= validate_field_grouping(target, layout, field, '2400')
     elif '_900_' in firmware:
         had_error |= validate_field_grouping(target, layout, field, '900')
-    elif '_LR1121_' in firmware:
-        had_error |= validate_field_grouping(target, layout, field, 'dual')
     return had_error
 
 

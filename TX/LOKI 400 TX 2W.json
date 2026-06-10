@@ -1,5 +1,4 @@
 {
-  "customised": "true",
   "serial_rx": 2,
   "serial_tx": 2,
   "radio_dio0": 26,

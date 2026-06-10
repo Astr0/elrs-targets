@@ -4190,9 +4190,9 @@
                 "lua_name": "RX580",
                 "layout_file": "Cortex RX580.json",
                 "upload_methods": ["uart", "wifi", "betaflight"],
-                "min_version": "3.4.0",
-                "platform": "esp32",
-                "firmware": "Unified_ESP32_LR1121_RX"
+                "min_version": "3.5.0",
+                "platform": "esp32-c3",
+                "firmware": "Unified_ESP32C3_LR1121_RX"
             }
         }
     },
@@ -4338,7 +4338,7 @@
         "rx_dual": {
             "plain": {
                 "product_name": "Blast RC S-Band RX",
-                "lua_name": "Blast RC S-Band RX",
+                "lua_name": "Blast S-Band RX",
                 "layout_file": "Generic 2400.json",
                 "upload_methods": ["uart", "wifi", "betaflight"],
                 "min_version": "3.5.0",
@@ -4397,7 +4397,7 @@
             },
             "v2_1": {
                 "product_name": "AERONETIX 490-560MHz V1 TX",
-                "lua_name": "AERONETIX 490_550 V1",
+                "lua_name": "AERX 490_550 V1",
                 "layout_file": "AERONETIX 490_550 V1.json",
                 "upload_methods": ["uart", "wifi"],
                 "min_version": "3.0.0",
@@ -4418,7 +4418,7 @@
             },
             "lr1121_150_450_v2": {
                 "product_name": "AERONETIX LR1121 150-450 V2 TX",
-                "lua_name": "LR1121 150-450 V2 TX",
+                "lua_name": "LR1121 150-450V2",
                 "layout_file": "Aeronetix LR1121 150-450 V2.json",
                 "upload_methods": ["uart", "wifi"],
                 "min_version": "3.4.0",
@@ -4427,7 +4427,7 @@
             },
             "lr1121_450_700_v2": {
                 "product_name": "AERONETIX LR1121 450-700 V2 TX",
-                "lua_name": "LR1121 450-700 V2 TX",
+                "lua_name": "LR1121 450-700V2",
                 "layout_file": "Aeronetix LR1121 450-700 V2.json",
                 "upload_methods": ["uart", "wifi"],
                 "min_version": "3.4.0",
@@ -4436,7 +4436,7 @@
             },
             "lr1121_5w_150_450_v1": {
                 "product_name": "AERONETIX LR1121 5W 150-450 V1 TX",
-                "lua_name": "LR1121 5W 150-450 V1 TX",
+                "lua_name": "1121 5W 150-450",
                 "layout_file": "Aeronetix LR1121 5W 150-450 V1.json",
                 "upload_methods": ["uart", "wifi"],
                 "min_version": "3.4.0",
@@ -4445,7 +4445,7 @@
             },
             "lr1121_5w_450_750_v1": {
                 "product_name": "AERONETIX LR1121 5W 450-750 V1 TX",
-                "lua_name": "LR1121 5W 450-750 V1 TX",
+                "lua_name": "1121 5W 450-750",
                 "layout_file": "Aeronetix LR1121 5W 450-750 V1.json",
                 "upload_methods": ["uart", "wifi"],
                 "min_version": "3.4.0",
@@ -4472,7 +4472,7 @@
             },
             "lr1121_2_4_1w_v1": {
                 "product_name": "AERONETIX LR1121 2_4GHz 1W V1 TX",
-                "lua_name": "LR1121 2_4GHz 1W V1 TX",
+                "lua_name": "1121 2G4 1W V1",
                 "layout_file": "Aeronetix LR1121 2_4GHz 1W V1.json",
                 "upload_methods": ["uart", "wifi"],
                 "min_version": "3.4.0",
@@ -4483,12 +4483,12 @@
         "rx_900": {
             "lr1121": {
                 "product_name": "Generic ESP8285 LR1121 900Mhz RX",
-                "lua_name": "ELRS LR1121 900RX",
+                "lua_name": "ELRS 1121 900RX",
                 "layout_file": "Generic 900 8285 lr1121.json",
                 "upload_methods": ["uart", "wifi", "betaflight"],
                 "min_version": "3.4.0",
                 "platform": "esp8285",
-                "firmware": "Unified_ESP8285_LR1121_900_RX"
+                "firmware": "Unified_ESP8285_LR1121_RX"
               }
         }
     },

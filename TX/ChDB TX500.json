@@ -5,6 +5,7 @@
     "radio_miso": 8,
     "radio_mosi": 9,
     "radio_nss": 3,
+    "radio_rst": -1,
     "radio_sck": 7,
     "power_min": 4,
     "power_high": 7,
