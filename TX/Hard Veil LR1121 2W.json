@@ -12,7 +12,7 @@
   "power_min": 0,
   "power_high": 7,
   "power_max": 7,
-  "power_default": 6,
+  "power_default": 3,
   "power_control": 0,
   "radio_rfsw_ctrl": [15, 0, 5, 12, 12, 8, 0, 1],
   "power_values": [-7, -4, -1, 2, 5, 8, 11, 14],

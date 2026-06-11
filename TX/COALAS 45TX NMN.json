@@ -14,7 +14,7 @@
     "power_min": 0,
     "power_high": 7,
     "power_max": 7,
-    "power_default": 6,
+    "power_default": 0,
     "power_control": 3,
     "power_values": [170,172,178,182,187,193,204,213],
     "power_values2": [124,124,124,124,124,124,124,124],

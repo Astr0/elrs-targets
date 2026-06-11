@@ -13,7 +13,7 @@
     "power_min": 5,
     "power_high": 6,
     "power_max": 6,
-    "power_default": 6,
+    "power_default": 5,
     "power_control": 0,
     "power_values": [70,72],
     "button": 0,
