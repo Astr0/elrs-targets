@@ -14,10 +14,11 @@
     "power_min": 0,
     "power_high": 7,
     "power_max": 7,
-    "power_default": 0,
+    "power_default": 6,
     "power_control": 3,
     "power_values": [170,172,178,182,187,193,204,213],
     "power_values2": [124,124,124,124,124,124,124,124],
+    "power_dac_freq_corr": [364,9, 380,6, 400,2, 410,0, 412,-2, 450,0, 500,3, 553,6],
 
     "led_rgb": 21,
     "led_rgb_isgrb": true,

@@ -57,11 +57,13 @@ hardware_fields = {
     "power_values": FieldType.ARRAY,
     "power_values2": FieldType.ARRAY,
     "power_values_dual": FieldType.ARRAY,
-    # SokilRC fork fields: frequency-dependent power correction (see firmware hardware.cpp)
+    # SokilRC fork fields: frequency-dependent power correction (see firmware hardware.cpp).
+    # The tables are flat [MHz, delta] pairs matching the firmware's ARRAY parser.
     "apply_power_correction": FieldType.BOOL,
     "apply_power_correction_dual": FieldType.BOOL,
     "freq_power_table": FieldType.ARRAY,
     "freq_power_table_dual": FieldType.ARRAY,
+    "power_dac_freq_corr": FieldType.ARRAY,
     "joystick": FieldType.ADC,
     "joystick_values": FieldType.ARRAY,
     "five_way1": FieldType.INPUT,
